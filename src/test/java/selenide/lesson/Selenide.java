@@ -23,7 +23,7 @@ public class Selenide {
         $("[name=q]").setValue("selenide").pressEnter();
         $("#js-pjax-container").$(byText("Wikis")).click();
         $(byText("SoftAssertions")).click();
-        $("#js-repo-pjax-container").shouldHave(text ("How to soft assert using Selenide"));
+        $("#js-repo-pjax-container").shouldHave(text ("Using JUnit5 extend test class:"));
 
     }
 }
